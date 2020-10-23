@@ -10,3 +10,5 @@ redirect_from:
 
 ## WORK IN PROGRESS
 
+<br/><img src='/images/figure_4.png'>
+
