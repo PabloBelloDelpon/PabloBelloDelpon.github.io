@@ -1,13 +1,9 @@
 # main links links
 main:
-
-- title: "Cultural Dynamics"
-    url: /year-archive/
-    
   - title: "Publications"
     url: /publications/
 
-  - title: "Social Networks"
+  - title: "Talks"
     url: /talks/    
 
   - title: "Teaching"
@@ -22,5 +18,5 @@ main:
   - title: "CV"
     url: /cv/
     
-  #- title: "Guide"
-   # url: /markdown/
+  - title: "Guide"
+    url: /markdown/
