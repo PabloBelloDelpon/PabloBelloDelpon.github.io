@@ -1,6 +1,6 @@
 ---
 title: "Cultural Drift on spotify"
-excerpt: "My last project 1<br/><img src='/images/figure_4.png'>"
+excerpt: "My last project <br/><img src='/images/figure_4.png'>"
 collection: portfolio
 ---
 
