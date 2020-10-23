@@ -1,6 +1,10 @@
 # main links links
 main:
-  - title: "Cultural Dynamics"
+
+- title: "Cultural Dynamics"
+    url: /year-archive/
+    
+  - title: "Publications"
     url: /publications/
 
   - title: "Social Networks"
