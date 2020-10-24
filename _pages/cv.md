@@ -34,5 +34,5 @@ Skills
 * NetLogo (for ABMs)
 * State (but not anymore)
 
-[A more detailed CV]()
+[A more detailed CV](files/CV_Pablo_Bello.pdf)
 
