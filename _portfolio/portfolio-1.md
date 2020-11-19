@@ -1,7 +1,16 @@
 ---
-title: "Cultural Drift on spotify"
+title: "Cultural Divergence on Spotify"
 excerpt: "My last project <br/><img src='/images/figure_4.png'>"
 collection: portfolio
 ---
 
-This is part of my last project studying cultural drift on Spotify
+A while ago, me and David Garcia decided to work together on answering some questions about the music market. We were interested in knowing if music is becoming similar across countries. In other words,  do we all increasingly listen to the same music? 
+To answer this question, we collected all the available data from Spotify and Itunes. Because individual-level data is not made public, we used top charts, so it is important to keep in mind that our results are more about pop-music and not so much about music in general. Using the daily two hundred most listened songs on Spotify we looked at how countries’ charts overlap. We had data for 51 countries for a period of three and a half years.  After calculating the number of songs that two countries have in common we found that geographical location seems to be the most important determinant, with a few notable exceptions. Spain is the most noticeable one (at least for me and David, who are from Spain), being closer to the Latin-American cluster than to any other European country. But this was well known in the literature (cite here). 
+However, we didn't know if these distances were increasing or decreasing.  This question is important because some governments have been, for decades, trying to protect “local culture” using radio quotas, subsidizing the production of films, and so forth. This fear comes from the Globalization narrative and the hypothesized invasion of American products into European markets, despite the evidence against it (cite here). The advent of streaming platforms has only increased this perception since they have enabled easy access for millions of users to a global market of music, where the (American) pop-starts are supposed to ascertain their dominance even further. 
+
+What we find is quite the opposite. Instead of becoming more similar, charts are increasingly different across countries and this is driven by the increased consumption of locally produced music. The diversity of songs, artists, and even record labels on the charts is growing. Further, global hits are increasingly rare. At least on Spotify, seeing a song making it to the charts of 20 or more countries is significantly less likely now than just a few years ago. We don't know whether this trend will prolong in time, and it's difficult to predict,  but there might be some structural changes in the music market causing these trends. 
+
+We argue that digital music, being cheaper to produce has generated a (random) long tail of music production (cite here). Artists now do not need expensive equipment or back up from a big label to create and promote their music.  Then there is the fact that, under the same conditions, we tend to choose local music instead of international (we understand the lyrics, know the artists, etc). Thus, with a growing offer of local music listeners do not have to resort that much to international music, and some of these local songs eventually make it to the charts, where we observe them. 
+
+[Link to the full version of the paper on SocArxiv] (https://osf.io/preprints/socarxiv/7azc5/)
+[Link to the code and data of the study] (https://github.com/PabloBelloDelpon/Spotify_paper)
