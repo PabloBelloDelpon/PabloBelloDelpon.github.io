@@ -18,4 +18,5 @@ What we find is quite the opposite. Instead of becoming more similar, charts are
 We argue that digital music, being cheaper to produce has generated a (random) long tail of music production (cite here). Artists now do not need expensive equipment or back up from a big label to create and promote their music.  Then there is the fact that, under the same conditions, we tend to choose local music instead of international (we understand the lyrics, know the artists, etc). Thus, with a growing offer of local music listeners do not have to resort that much to international music, and some of these local songs eventually make it to the charts, where we observe them. 
 
 [Link to the full version of the paper on SocArxiv](https://osf.io/preprints/socarxiv/7azc5/)
+
 [Link to the code and data of the study](https://github.com/PabloBelloDelpon/Spotify_paper)
