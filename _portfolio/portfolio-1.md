@@ -10,6 +10,8 @@ However, we didn't know if these distances were increasing or decreasing.  This 
 
 What we find is quite the opposite. Instead of becoming more similar, charts are increasingly different across countries and this is driven by the increased consumption of locally produced music. The diversity of songs, artists, and even record labels on the charts is growing. Further, global hits are increasingly rare. At least on Spotify, seeing a song making it to the charts of 20 or more countries is significantly less likely now than just a few years ago. We don't know whether this trend will prolong in time, and it's difficult to predict,  but there might be some structural changes in the music market causing these trends. 
 
+![alt text](/images/figure_4.png)
+
 We argue that digital music, being cheaper to produce has generated a (random) long tail of music production (cite here). Artists now do not need expensive equipment or back up from a big label to create and promote their music.  Then there is the fact that, under the same conditions, we tend to choose local music instead of international (we understand the lyrics, know the artists, etc). Thus, with a growing offer of local music listeners do not have to resort that much to international music, and some of these local songs eventually make it to the charts, where we observe them. 
 
 [Link to the full version of the paper on SocArxiv] (https://osf.io/preprints/socarxiv/7azc5/)
