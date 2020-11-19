@@ -1,10 +1,10 @@
 ---
 title: "Cultural Divergence on Spotify"
-excerpt: "My last project <br/><img src='/images/figure_4.png'>"
+excerpt: "Do we all listen to the same music? <br/><img src='/images/figure_4.png'>"
 collection: portfolio
 ---
 
-A while ago, me and David Garcia decided to work together on answering some questions about the music market. We were interested in knowing if music is becoming similar across countries. In other words,  do we all increasingly listen to the same music? 
+A while ago, David Garcia and I decided to work together on answering some questions about the music market. We were interested in knowing if music is becoming similar across countries. In other words,  do we all increasingly listen to the same music? 
 To answer this question, we collected all the available data from Spotify and Itunes. Because individual-level data is not made public, we used top charts, so it is important to keep in mind that our results are more about pop-music and not so much about music in general. Using the daily two hundred most listened songs on Spotify we looked at how countries’ charts overlap. We had data for 51 countries for a period of three and a half years.  After calculating the number of songs that two countries have in common we found that geographical location seems to be the most important determinant, with a few notable exceptions. Spain is the most noticeable one (at least for me and David, who are from Spain), being closer to the Latin-American cluster than to any other European country. But this was well known in the literature (cite here). 
 
 ![alt text](/images/figure_2.png)
