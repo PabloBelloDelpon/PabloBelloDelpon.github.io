@@ -11,4 +11,4 @@ citation: 'Bello, Pablo, and David Garcia. 2020. &quot;Cultural Divergence in Po
 
 [Download paper here](https://osf.io/preprints/socarxiv/7azc5/)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: Bello, Pablo, and David Garcia. 2020. "Cultural Divergence in Popular Music: The Increasing Diversity of Music Consumption on Spotify Across Countries" <i>SocArXiv</i>. 1(1).
