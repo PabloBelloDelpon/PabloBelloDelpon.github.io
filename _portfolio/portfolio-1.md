@@ -1,6 +1,6 @@
 ---
 title: "Cultural Divergence on Spotify"
-excerpt: "Do we all listen to the same music? <br/><img src='/images/figure_4.png'>"
+excerpt: "Is popular music all the same? <br/><img src='/images/figure_4.png'>"
 collection: portfolio
 ---
 
