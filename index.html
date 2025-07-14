@@ -1,61 +1,67 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>Pablo Bello</title>
-	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
-	<meta http-equiv="pragma" content="no-cache" />
-	<meta name="robots" content="all" />
-	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<meta http-equiv="imagetoolbar" content="false" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->	
-	<style>
-		* { padding: 0; margin: 0; }
-		body { background-color: #333; }
-		p { color: rgb(5, 5, 5); font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		a { color: rgb(5, 5, 5); font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
-		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
-		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { border-radius: 7px; background-color: rgba(255, 255, 255, 0.6); width: 360px; padding: 20px 20px 20px 20px; margin: 50px auto 0px 0px !important; }
-		@media (max-width: 767px) {
-			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
-			#about { position: relative; width: auto; padding: 40px; margin: 0 !important; }
-			background-image { opacity: 0.2; }
-		}
-	</style>
-</head>	
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pablo Bello</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: url('gug_bw.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 40px;
+      border-radius: 12px;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #0056cc;
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    a:hover {
+      border-color: #0056cc;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
 <body>
 
-<!-- swap out for a logo -->
-<div id="monogram">
-	<img src="" />
+<div class="container">
+  <p>I am a PhD student in Sociology at Duke University. Before, I earned an MSc in Computational Social Science from Linköping University and worked as a research assistant at the Institute for Analytical Sociology. If you want to know more, here is my <a href="pablo_bello_cv_jan_2024.pdf">CV</a>.</p>
+
+  <p>My only published work is on the effects of digitization and streaming on the consumption of popular music across countries (<a href="https://www.nature.com/articles/s41599-021-00855-1">published here</a>). However, my main interests are the study of social influence and cultural logics.</p>
+
+  <p>As a Computational Social Scientist, I adapt new methods and data to traditional sociological questions.</p>
+
+  <p>You can reach me via <a href="https://twitter.com/pablobellode">Twitter</a> or email me at <strong>pablo.bello@duke.edu</strong>. Here is my <a href="https://scholar.google.com/citations?user=AuDYvKUAAAAJ&hl=es">Google Scholar</a> and <a href="https://github.com/PabloBelloDelpon">GitHub</a>.</p>
 </div>
 
-<!-- swap out for information about yourself -->
-<div id="about">
-	<p>I am a PhD student in Sociology at Duke University. Before, I earned a MSc in Computational Social Science from Linköping University and worked as a research assistant at the Institute for Analytical Sociology.  If you want to know more, here is my <a href="pablo_bello_cv_jan_2024.pdf"> CV</a></p>
-    <p>My only published work is on the effects of digitization and streaming on the consumption of popular music across countries (<a href="https://www.nature.com/articles/s41599-021-00855-1">published here</a>). However, my main interests are the study of social influence and cultural logics.</p>
-    <p>As a Computational Social Scientist, I adapt new methods and data to traditional sociological questions.</p>
-    <p>You can reach me via <a href="https://twitter.com/pablobellode">twitter</a> or email me to <b>pablo.bello@duke.edu</b>. Here is my <a href="https://scholar.google.com/citations?user=AuDYvKUAAAAJ&hl=es">scholar page</a> and <a href="https://github.com/PabloBelloDelpon">GitHub</a>.</p>
-</div>
-
-<!--include jquery & backstretch-->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.backstretch.min.js"></script>
-<script type="text/javascript">
-$(function(){
-     $(window).resize(function(){
-         if($(this).width() >= 767){
-             $.backstretch("gug_bw.jpg", {speed: 150});
-         }
-      })
-      .resize();//trigger resize on page load
-});
-</script>
-
-</body>	
+</body>
 </html>
