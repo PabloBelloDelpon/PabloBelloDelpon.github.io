@@ -90,3 +90,13 @@
 
 </body>
 </html>
+
+<script>
+  function loadBlogPost(url) {
+    const frameContainer = document.getElementById('blog-frame-container');
+    const frame = document.getElementById('blog-frame');
+    frame.src = url;
+    frameContainer.style.display = 'block';
+  }
+</script>
+
