@@ -37,11 +37,11 @@ body {
 .blog-page .container {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, .9);
 }
 
 .blog-page .container:hover {
-  background: rgba(255, 255, 255, 1); /* Same as normal */
+  background: rgba(255, 255, 255, .9); /* Same as normal */
 }
 
 h1 {
@@ -53,7 +53,7 @@ h1 {
 h2 {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 p {
