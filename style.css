@@ -34,10 +34,14 @@ body {
   background: rgba(255, 255, 255, 0.9);
 }
 
-.blog-container {
+.blog-page .container {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  background: rgba(255, 255, 255, 0.2); /* More opaque */
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.blog-page .container:hover {
+  background: rgba(255, 255, 255, 0.85); /* Same as normal */
 }
 
 h1 {
