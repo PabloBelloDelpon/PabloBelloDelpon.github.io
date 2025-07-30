@@ -37,11 +37,11 @@ body {
 .blog-page .container {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 1);
 }
 
 .blog-page .container:hover {
-  background: rgba(255, 255, 255, 0.85); /* Same as normal */
+  background: rgba(255, 255, 255, 1); /* Same as normal */
 }
 
 h1 {
