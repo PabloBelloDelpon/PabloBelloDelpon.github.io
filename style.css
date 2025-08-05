@@ -127,7 +127,7 @@ hr {
 
 @media (max-width: 600px) {
   .navbar ul {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 10px;
   }
