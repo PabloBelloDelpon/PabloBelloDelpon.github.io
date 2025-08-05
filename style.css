@@ -93,10 +93,11 @@ hr {
     padding: 20px;
   }
 }
+
 .navbar {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
+  margin-bottom: 30px; /* increase this if needed */
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
 }
 
 .navbar ul {
