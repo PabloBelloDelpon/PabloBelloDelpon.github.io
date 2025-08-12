@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sociology's Hiring Network</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="blog-page">
+  <div class="container">
+    <h1>Sociology's Hiring Network</h1>
+    <p><em>August 12, 2025</em></p>
+	
+	
+<p>To celebrate the end of the ASA annual meeting, with its anxious networking and job seeking (that will be me next year), I decided to make a plot of the hiring network in sociology. I used data from this fantastic <a href="https://www.nature.com/articles/s41586-022-05222-x" target="_blank">paper</a> by Hunter Wapman and his colleagues. It contains all tenured or tenure-track faculty at 368 PhD-granting institutions in the United States who were working at any time between 2011 and 2020. This includes all fields, but here I used only the data for sociology departments. The data comes as a hiring network:  each faculty is an edge, with the department where they obtained their PhD as the origin and the department where they currently are employed as the endpoint. The departments are ranked by status using the <a href="https://www.science.org/doi/10.1126/sciadv.aar8260" target="_blank"> Spring Rank</a> algorithm. In the words of the authors:</p>
+
+<blockquote>
+Treating the flows of faculty between US universities as a network leads to a natural, recursive definition of prestige: a department is prestigious if its graduates are hired by other prestigious departments.
+</blockquote>
+
+<p>What the algorithm does is minimize the number of hires from lower-ranked departments by recursively trying different arrangements.</p>
+
+<p>So here is what hiring looks like in sociology for the top 25 departments. <b>The green lines are downward moves</b> (PhD department is higher ranked than the department where someone is employed), and the <b>red ones are upward moves</b>. That there are fewer upward moves than downward moves is not surprising; this is exactly what the ranking algorithm seeks. But the ratio is not too bad, with one in every three moves flowing up the ranks. The hierarchy becomes steeper when considering all departments (not just the top 25). In that case, only about one in ten moves is upward. This is still more than in other fields, like economics, where only about one in twenty moves is upward. As the authors explain in the paper, a fair chunk of this inequality is explained by the differential production volume of PhDs. Although, especially in the social sciences, the upward moves are still much fewer than you'd expect given the PhD production alone.  <b>This is just to say that there is a status hierarchy in sociology, and it has consequences for your career. </b> No surprises there.</p>
+
+	<img src="../images/sociology.png" style="max-width:100%; height:auto;">
+	
+	
+<p>Another way to look at this data is by department. Here I show two departments that are adjacent in the ranks: Duke and Cornell. The edges in orange represent PhDs produced by these two departments, and the ones in blue represent where the faculty obtained their PhDs. The pattern is very similar (also to other departments in the mid ranks). Most faculty come from the top ten departments, and most students move to lower-ranked ones. Also, the average downward move length that students experience is longer than what their faculty experienced. What this suggests is that there is a natural mismatch between the experience of academia that the average faculty member and the average grad student within the same department have. This might help explain why some professors think that students use low career expectations as a kind of coping mechanism, as in this <a href="https://scatter.wordpress.com/2015/09/18/the-mythical-job/" target="_blank">blog post</a>.</p>
+
+<p>It is also quite <s>troubling</s> interesting to see that Cornell has placed a few more students up the ranks than Duke has. This data, however, includes all faculty, so some of those moves might be decades old.</p>
+
+
+	<img src="../images/departments.png" style="max-width:100%; height:auto;">
+	
+
+
+
+
+</div>
+</body>
+</html>
