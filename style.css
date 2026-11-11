@@ -34,6 +34,14 @@ body {
   background: rgba(255, 255, 255, 0.9);
 }
 
+/* Blog background: covers the whole page on the blog.
+   Saved options: blog_bg_rotunda.jpg, blog_bg_rotunda_enhanced.jpg, blog_bg_ceiling.jpg.
+   Swap the file name below to switch. */
+body.blog-page,
+body.blog-index {
+  background-image: url('blog_bg_rotunda.jpg');
+}
+
 .blog-page .container {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
